@@ -1,0 +1,26 @@
+# Local internal planning document (never push to GitHub)
+PLAN.md
+
+# Compiled binaries
+firestick_debloat
+*.exe
+*.out
+*.app
+bin/
+dist/
+
+# Go build, test & coverage artifacts
+*.test
+*.prof
+coverage.out
+
+# Local ADB RSA keys or temporary configs (if generated in workspace)
+*.key
+*.pub
+.adb/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
